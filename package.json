@@ -1,0 +1,25 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "shenya practice node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shen-Ya/nodePractice.git"
+  },
+  "author": "shenya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shen-Ya/nodePractice/issues"
+  },
+  "homepage": "https://github.com/Shen-Ya/nodePractice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
