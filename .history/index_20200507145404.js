@@ -14,25 +14,9 @@ app.get('/login',(req,res)=>{
     console.log(params)
     console.log('everybody is here now')
     res.send({
-          isSuccess : true,
-          msg : '请求成功',
-          data : {name:'express',version:'2.3.4'},
-          code : 0
+        "message":'run successfully~'
     })
 })
-
-// app.get('/user/get',(req,res) => {
-//   console.log(req);
-//   console.log(res);
-//   res.send("get访问成功");
-// })
-
-// app.post('/user/post',(req,res) => {
-//   console.log(req);
-//   console.log(res);
-//   res.send("post访问成功");
-// })
-
 
 app.use(function (req, res, next) {
     res.status(404).send("Sorry can't find that!")
